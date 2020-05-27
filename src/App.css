@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* START */
+
+.form-bg{
+  background-color: wheat;
+  height: 100vh;
+}
+
+.form-body{
+  width: 25%;
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background-color: brown;
+  border-radius: 10px;
+}
+
+.btn-form{
+  background-color: burlywood;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  margin-left: 3px;
+}
+
+.form-body form{
+  margin: 5% 0 0 5%;
+  
+}
+
+.form-body form input{
+  width: 85%;
+  padding: 5px;
+}
+
+.task-body{
+  background-color: white;
+  border: firebrick;
+  margin: 5% 5% 0 5%;
+  padding: 5px;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+
+.task-body .task-item{
+  background-color: darksalmon;
+  color: black;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.task-body .task-item input{
+  background-color: transparent;
+  border: none;
+}
